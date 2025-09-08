@@ -330,6 +330,48 @@
     }
     .social-icons a:hover { color: #ffffff; }
 
+    .responsive-title {
+  font-size: 5rem;
+  margin-bottom: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.responsive-subtitle {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+/* Tablet styles */
+@media screen and (max-width: 992px) {
+  .responsive-title {
+    font-size: 3.5rem;
+  }
+  .responsive-subtitle {
+    font-size: 1.3rem;
+  }
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+  .responsive-title {
+    font-size: 2.5rem;
+  }
+  .responsive-subtitle {
+    font-size: 1.1rem;
+  }
+}
+
+/* Small mobile styles */
+@media screen and (max-width: 480px) {
+  .responsive-title {
+    font-size: 1.8rem;
+  }
+  .responsive-subtitle {
+    font-size: 1rem;
+  }
+}
+
   </style>
 </head>
 <body>
@@ -347,12 +389,13 @@
       </div>
       
       <!-- Title Section (separate from flex) -->
-      <div style="text-align: center;">
-        <h1 style="font-size: 5rem; margin-bottom: 5px;">SITARI SOLUTIONS</h1>
-        <div style="font-size: 1.5rem; color: #fff;">
-          www.sitarisolutions.in
-        </div>
-      </div>
+<div style="text-align: center;">
+  <h1 class="responsive-title">SITARI SOLUTIONS</h1>
+  <div class="responsive-subtitle">
+    <a href="https://www.sitarisolutions.in" style="color: #fff; text-decoration: none;">www.sitarisolutions.in</a>
+  </div>
+</div>
+
 
       <!-- Right person image -->
       <div class="person-box">
